@@ -5,6 +5,18 @@ Jest
 Storybook
 Supabase
 
+# Jest
+t
+
+# Storybook
+ yarn storybook
+
+# Supabase (local)
+supabase start
+supabase stop
+
+# Supabase (server)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 yarn dev
