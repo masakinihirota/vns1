@@ -13,17 +13,17 @@ export const getStaticProps: GetStaticProps = async () => {
     .select('*')
     .order('id', { ascending: false })
 
-  return { props: { test } }
+  return { props: { test: test } }
 }
 
 type StaticProps = {
-  // tasksはここで定義されていた
+  // tasksはここで定義されている
   test: Test[]
 }
 
 const Ssg: NextPage<StaticProps> = ({ test }) => {
-  console.log('中身')
-  console.log(test, '調査')
+  // console.log('中身')
+  // console.log(test, '調査')
 
   const router = useRouter()
   return (
@@ -38,7 +38,9 @@ const Ssg: NextPage<StaticProps> = ({ test }) => {
           )
         })}
       </ul>
-
+      <Link href="/" prefetch={false}>
+        <a className="my-3 text-xs"> Link to top</a>
+      </Link>
       <Link href="/ssr" prefetch={false}>
         <a className="my-3 text-xs"> Link to ssr</a>
       </Link>
