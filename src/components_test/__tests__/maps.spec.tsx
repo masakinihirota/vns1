@@ -1,4 +1,4 @@
-import { Books } from '../books'
+import { Books } from '../maps'
 import { render } from '@testing-library/react'
 
 test('map練習 mapの基本形', () => {

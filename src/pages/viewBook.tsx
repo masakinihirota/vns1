@@ -1,6 +1,6 @@
 import * as React from 'react'
 import type { NextPage } from 'next'
-import { Books } from '../components_test/books'
+import { Books } from '../components_test/maps'
 
 // mapの使い方
 const Home: NextPage = () => {
