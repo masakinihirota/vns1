@@ -6,6 +6,7 @@ import { Layout } from '../components/Layout'
 import { supabase } from '../utils/supabase'
 import { Test } from '../types/types'
 
+// ssgの使い方
 export const getStaticProps: GetStaticProps = async () => {
   console.log('getStaticProps/ssg invoked test')
   const { data: test } = await supabase

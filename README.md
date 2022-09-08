@@ -1,21 +1,30 @@
 追加
 
+Next.js
 Typescript
 Jest
 Storybook
 Supabase
 
+環境コマンド
+
 # Jest
+
 t
 
 # Storybook
- yarn storybook
+
+sb
 
 # Supabase (local)
+
 supabase start
 supabase stop
 
 # Supabase (server)
+
+src/pages は、ルートディレクトリに pages がある場合は無視されます。
+next.config.js や tsconfig.json のような設定ファイルは、環境変数と同様にルートディレクトリに配置して下さい。これらは src に配置しても動作しません。public ディレクトリについても同様です。
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
