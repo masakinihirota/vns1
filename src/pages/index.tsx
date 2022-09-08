@@ -1,7 +1,7 @@
-import Link from 'next/link'
-import { Layout } from '../components/Layout'
-import type { NextPage } from 'next'
-import Head from 'next/head'
+import Link from "next/link"
+import { Layout } from "../components/Layout"
+import type { NextPage } from "next"
+import Head from "next/head"
 
 const User = (props: { name: string | null | undefined }) => {
   return <h2>Hello {props.name}</h2>
