@@ -1,3 +1,4 @@
+// Jestテスト用の動作確認用コンポーネント
 export const Sample = () => {
   return (
     <main>

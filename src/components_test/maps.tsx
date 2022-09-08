@@ -1,3 +1,4 @@
+// mapの動作確認用コンポーネント
 import * as React from 'react'
 
 export interface BooksProps {
